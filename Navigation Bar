@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>TogetherWeCare</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" inital-scale="1">
+        <link href="bpa styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <p class="Logo">Navbar</p>
+            <input type="checkbox" name="" class="btn" />
+            <div class="nav">
+                <ol>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Volunteering</a></li>
+                    <li><a href="#">Donate</a></li>
+                </ol>
+            </div>
+        </header>
+    </body>
+</html>
