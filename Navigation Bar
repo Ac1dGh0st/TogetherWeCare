@@ -4,7 +4,7 @@
         <title>TogetherWeCare</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" inital-scale="1">
-        <link href="bpa styles.css" rel="stylesheet">
+        <link href="bpastyles.css" rel="stylesheet">
     </head>
     <body>
         <header>
