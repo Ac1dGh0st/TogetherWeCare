@@ -22,13 +22,11 @@ header{
     color: rgb(44,44,44);
     font-size: 1.5em;
 }
-.nav{
-    display: flex;
-    align-items: center;
-}
+
 .nav ol{
     display: flex;
     list-style: none;
+    gap: 25px;
 }
 .btn{
     position: relative;
@@ -58,53 +56,23 @@ header{
     position: relative;
     z-index: 1;
 }
-.nav ol li a::before{
-    content: '';
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 41px;
-    border-radius: 10px 10px 0 0;
-    background: #853333;
-    transform-origin: bottom;
-    background: linear-gradient (to right, #2C5364, #203A43, #0f2027);
-    transform: scaleY (0 .05);
-    z-index: -1;
-    transition: all .4s;
+.nav ol li a::after {
+  content: '';
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: fit;
+  padding: 22px 15px;
+  background: none;
+  z-index: -1;
+  transition: all 0.18s ease;
+  border-radius: 10px 10px 0 0;
 }
+.nav ol li a:hover::after {
+  background: #2C5364 !important;
+}
+
 .nav ol li a:hover::before{ transform: scaleY(1.1); }
 .nav ol li a:hover{ color: white; }
-
-@media (max-width 1200px) {
-    .btn{
-        display: flex;
-        z-index: 100;
-    }
-    header{
-        justify-content: space-between;
-        padding:0 2em;
-    }
-    .nav{
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        background: #F8F8F8;
-        transform: translateY(-110%)
-        transition: all .4s;
-    }
-    input: checked ~ .nav{
-        transform: translateY (0%)
-    }
-    input: checked::before{
-        content: '\f00d';
-    }
-}
-@media (max-width: 700px) {
-    .nav ol{
-        flex-direction: column;
-        text-align: center;
-    }
-}
