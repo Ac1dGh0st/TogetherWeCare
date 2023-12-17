@@ -82,3 +82,6 @@ body {
 .quote p span {
     font-weight: bold;
 }
+.loginredirect {
+    text-decoration: none;
+}
