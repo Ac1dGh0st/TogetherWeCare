@@ -12,7 +12,7 @@ body {
 }
 header{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: #ff914d;
     display: flex;
     justify-content: space-around;
@@ -181,4 +181,22 @@ ol li:hover::after {
 {
     background-color: #000;
     color: #fff;
+}
+.Heading {
+    text-align: center;
+    position: absolute; top: 780px; left: 850px;
+}
+.Paragraph {
+    position: absolute; top: 950px; right: 400px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.Picture {
+    float: left;
+    position: absolute; top: 900px; right: 1050px;
+}
+.img-fluid {
+    position: absolute; top: -45px; left: 10px;
+    height: 300px;
+    width: 300px;
 }
