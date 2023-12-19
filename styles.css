@@ -200,3 +200,9 @@ ol li:hover::after {
     height: 300px;
     width: 300px;
 }
+body {
+    background-image: url(images/Screenshot\ 2023-12-19\ 160952.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
