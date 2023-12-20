@@ -202,8 +202,7 @@ ol li:hover::after {
 }
 body {
     background-image: url(images/Screenshot\ 2023-12-19\ 160952.png);
-    background-image: url(images/Screenshot\ 2023-12-19\ 160952.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
 }
