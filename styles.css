@@ -207,5 +207,39 @@ body {
     background-size: 100%;
 }
 .picturetwo {
-    position: absolute; top: 1500px; left: 550px;
+    position: absolute; top: 1550px; left: 550px;
+}
+.description{
+    position: absolute; top: 1550px; left: 1050px;
+    font-size: 24px;
+    text-align: center;
+}
+.description h3 {
+    padding: 10px;
+}
+.Activities{
+    position: absolute; top: 1825px; left: 1050px;
+    font-size: 24px;
+    text-align: center;
+}
+.Activities h3 {
+    padding: 10px;
+}
+.picturethree {
+    position: absolute; top: 1825px; left: 550px;
+}
+.Planet{
+    position: absolute; top: 2050px; left: 1050px;
+    font-size: 24px;
+    text-align: center;
+}
+.Planet h3 {
+    padding: 10px;
+}
+.picturefour {
+    position: absolute; top: 2050px; left: 550px;
+}
+.Headingtwo {
+    text-align: center;
+    position: absolute; top: 1400px; left: 850px;
 }
