@@ -206,3 +206,6 @@ body {
     background-attachment: fixed;
     background-size: 100%;
 }
+.picturetwo {
+    position: absolute; top: 1500px; left: 550px;
+}
