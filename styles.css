@@ -88,12 +88,12 @@ ol {
     list-style: none;
 }
 ol li {
-    padding: 10px 15px;
+    padding:20px 70px ;
     margin: 0px 10px;
     position: relative;
 }
 ol li a{
-    text-decoration: none;
+    text decoration:none;
     cursor: pointer;
     color: #fff;
     font-size: 20px;
